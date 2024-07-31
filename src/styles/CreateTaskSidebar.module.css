@@ -1,0 +1,70 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 470px;
+    height: 100vh;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .open {
+    transform: translateX(0);
+  }
+  
+  .closed {
+    transform: translateX(100%);
+  }
+
+
+  .actionBar{
+    display: flex;
+  }
+
+
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formContainer div {
+    margin-bottom: 15px;
+  }
+  
+  .formContainer label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formContainer input,
+  .formContainer textarea,
+  .formContainer select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formContainer button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

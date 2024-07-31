@@ -1,0 +1,120 @@
+/* styles/Sidebar.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.sidebar {
+  width: 285px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 1);
+
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  border-right: 1px solid rgba(222, 222, 222, 1)
+}
+
+.sidebar .profileSection {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .profileSection .profileImage {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.sidebar .profileSection h2 {
+  margin-bottom: 20px;
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 12px;
+}
+
+
+.notificationBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.notificationBar .icons {
+  display: flex;
+}
+
+
+.notificationBar .icons img {
+  margin-right: 10px;
+}
+
+
+.notificationBar button {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  padding: 8px;
+  background: rgba(244, 244, 244, 1);
+  border-radius: 4px;
+  border: none;
+  color: rgba(121, 121, 121, 1);
+  align-items: center;
+}
+
+.navigationLinks {
+  margin-top: 20px;
+}
+
+.navigationLinks div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  font-family: "Barlow";
+  color: rgba(121, 121, 121, 1);
+
+  line-height: 24.2px;
+  text-align: left;
+  padding: 8px;
+}
+
+.navigationLinks .selected {
+  border: 1px solid rgba(221, 221, 221, 1);
+  background-color: rgba(244, 244, 244, 1);
+  border-radius: 4px;
+}
+
+.navigationLinks h2 {
+  margin: 0;
+  font-size: 20px;
+  padding-left: 16px;
+  font-weight: 500 !important;
+}
+
+.createButton button {
+  font-family: "Barlow" !important;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 
+  0px 1px 8px 0px rgba(0, 0, 0, 0.25),
+  inset 0px 12px 16px 0px rgba(186, 186, 186, 0.2);
+  border: 1px solid;
+  border-image-source: linear-gradient(360deg, #4B36CC 0%, #9C93D4 107.69%);
+  background: linear-gradient(180deg, #4C38C2 0%, #2F2188 100%);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.createButton span {
+  margin-top: 2px;
+  padding-left: 5px;
+}
