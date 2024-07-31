@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import styles from "../styles/SignupForm.module.css";
 import Image from "next/image";
 import axios from "axios";
+import Link from "next/link";
 
 const SignupPage = () => {
   const [username, setUsername] = useState("");
@@ -132,7 +133,7 @@ const SignupPage = () => {
           </button>
         </form>
         <div className={styles.loginLink}>
-          Already have an account? <a href="/login">Log in</a>
+          Already have an account? <Link href="/login">Log in</Link>
         </div>
       </div>
     </div>

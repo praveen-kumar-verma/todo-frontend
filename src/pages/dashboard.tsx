@@ -193,7 +193,7 @@ const DashboardPage = () => {
           <div className={styles.text}>
             <p className={styles.noteTitle}>Access Anywhere</p>
             <p className={styles.noteDescription}>
-              Sync your notes across all devices. Stay productive whether you're
+              Sync your notes across all devices. Stay productive whether you&apos;re
               on your phone, tablet, or computer.
             </p>
           </div>
