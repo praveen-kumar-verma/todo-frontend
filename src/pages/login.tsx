@@ -138,6 +138,7 @@ import styles from "../styles/LoginForm.module.css";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css"; // Optional for styling
 import Image from "next/image";
+import Link from "next/link";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -247,7 +248,7 @@ const LoginPage = () => {
           </button>
         </form>
         <div className={styles.signupLink}>
-          Don’t have an account? <a href="/signup">Create a new account</a>
+          Don’t have an account? <Link href="/signup">Create a new account</Link>
         </div>
       </div>
     </div>
